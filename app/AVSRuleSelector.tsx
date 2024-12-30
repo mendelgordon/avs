@@ -67,7 +67,7 @@ const AVSRuleSelector = () => {
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded">
             <div>
               <p className="font-medium">ZIP Match + Street No Match</p>
-              <p className="text-sm text-gray-600">Allow transactions when ZIP matches but Street doesn't</p>
+              <p className="text-sm text-gray-600">Allow transactions when ZIP matches but Street doesn&#39;t</p>
             </div>
             <Switch
               checked={selections.zipMatchStreetNoMatch}
