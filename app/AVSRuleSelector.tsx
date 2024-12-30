@@ -38,7 +38,7 @@ const AVSRuleSelector = () => {
 				<CardTitle>AVS Rule Selector</CardTitle>
 			</CardHeader>
 			<CardContent className="space-y-6">
-				<RadioGroup onValueChange={handleRuleChange} value={selectedRuleCriteria}>
+				<RadioGroup onValueChange={handleRuleChange} value={selectedRuleCriteria ?? undefined}>
 					<div className="space-y-4">
 						<div className="flex items-center space-x-2">
 							<RadioGroupItem value="zipAndStreet" id="rule1" />
