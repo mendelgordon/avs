@@ -78,7 +78,7 @@ const AVSRuleSelector = () => {
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded">
             <div>
               <p className="font-medium">ZIP No Match + Street Match</p>
-              <p className="text-sm text-gray-600">Allow transactions when ZIP doesn't match but Street does</p>
+              <p className="text-sm text-gray-600">Allow transactions when ZIP doesn&#39;t match but Street does</p>
             </div>
             <Switch
               checked={selections.zipNoMatchStreetMatch}
@@ -114,7 +114,7 @@ const AVSRuleSelector = () => {
           <Alert className="mt-6" variant="destructive">
             <AlertTitle>No Matching Rule</AlertTitle>
             <AlertDescription>
-              Your selected combination doesn't match any predefined AVS rules. Please adjust your selections.
+              Your selected combination doesn&#39;t match any predefined AVS rules. Please adjust your selections.
             </AlertDescription>
           </Alert>
         )}
