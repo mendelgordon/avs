@@ -1,4 +1,4 @@
-import AVSRuleSelector from "./avsruleselector";
+import AVSRuleSelector from "./AVSRuleSelector";
 
 export default function Home() {
   return (
