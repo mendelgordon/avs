@@ -37,7 +37,7 @@ const AVSRuleSelector = () => {
     return null; // No matching rule
   }, [selections]);
 
-  const handleToggle = (key) => {
+  const handleToggle = (key: keyof typeof selections) => {
     setSelections(prev => ({
       ...prev,
       [key]: !prev[key]
