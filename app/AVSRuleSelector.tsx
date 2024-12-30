@@ -94,7 +94,7 @@ const AVSRuleSelector = () => {
 				{!rule && selectedRuleCriteria && (
 					<Alert className="mt-6" variant="destructive">
 						<AlertTitle>No Direct Rule Mapping</AlertTitle>
-						<AlertDescription>The selected criteria doesn't directly map to a single predefined AVS rule in the matrix. This might represent a custom or less common configuration.</AlertDescription>
+						<AlertDescription>The selected criteria does not directly map to a single predefined AVS rule in the matrix. This might represent a custom or less common configuration.</AlertDescription>
 					</Alert>
 				)}
 			</CardContent>
